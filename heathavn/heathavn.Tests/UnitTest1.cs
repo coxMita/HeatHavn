@@ -1,10 +1,24 @@
-﻿namespace heathavn.Tests;
+﻿using System;
+using Xunit;
+using heathavn.Services;
 
-public class UnitTest1
+namespace heathavn.Tests
 {
-    [Fact]
-    public void Test1()
+    public class AssetManagerTests
     {
+        [Fact]
+        public void LoadAssets_ValidJson_ReturnsAssets()
+        {
+            // Arrange
+            var manager = new AssetManager();
+            // Ensure you have a valid assets.json file in the test project's output directory
+            string filePath = "assets.json"; 
 
+            // Act
+            manager.LoadAssets(filePath);
+
+            // Assert
+            Assert.NotEmpty(manager.Assets);
+        }
     }
 }

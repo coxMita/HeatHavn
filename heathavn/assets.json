@@ -1,0 +1,19 @@
+[
+    {
+      "Id": 1,
+      "Name": "Boiler 1",
+      "Type": "Gas Boiler",
+      "Location": "Building A",
+      "PerformanceRating": 95.5,
+      "MaintenanceSchedule": "2025-05-01T00:00:00"
+    },
+    {
+      "Id": 2,
+      "Name": "Boiler 2",
+      "Type": "Oil Boiler",
+      "Location": "Building B",
+      "PerformanceRating": 90.0,
+      "MaintenanceSchedule": "2025-06-01T00:00:00"
+    }
+  ]
+  
