@@ -1,16 +1,13 @@
 ﻿using Avalonia;
 using System;
 using System.IO;
-// Add the following using to bring in AssetManager
-using heathavn.Services;
+using heathavn.Services; // Ensure this matches the namespace of your AssetManager
 
 namespace heathavn;
 
 sealed class Program
 {
-    // Initialization code. Don't use any Avalonia, third-party APIs or any
-    // SynchronizationContext-reliant code before AppMain is called: things aren't initialized
-    // yet and stuff might break.
+    // This is the only Main method in your project.
     [STAThread]
     public static void Main(string[] args)
     {
@@ -18,7 +15,7 @@ sealed class Program
         try
         {
             var assetManager = new AssetManager();
-            assetManager.LoadAssets("assets.json"); // adjust path if needed
+            assetManager.LoadAssets("assets.json"); // adjust the path if needed
 
             Console.WriteLine("Assets loaded successfully:");
             foreach (var asset in assetManager.Assets)
