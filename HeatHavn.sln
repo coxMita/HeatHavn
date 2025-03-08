@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heathavn", "heathavn\heathavn.csproj", "{899C9185-F999-8700-1682-82FAEE38EF41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "heathavn (1)", "heathavn (1)", "{63E897B6-C673-A319-BEED-5D9ACFFFC62B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heathavn.Tests", "heathavn\heathavn.Tests\heathavn.Tests.csproj", "{4DC1848E-9AC4-32F0-F4C2-B601E89E8917}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{899C9185-F999-8700-1682-82FAEE38EF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899C9185-F999-8700-1682-82FAEE38EF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899C9185-F999-8700-1682-82FAEE38EF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899C9185-F999-8700-1682-82FAEE38EF41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC1848E-9AC4-32F0-F4C2-B601E89E8917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC1848E-9AC4-32F0-F4C2-B601E89E8917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC1848E-9AC4-32F0-F4C2-B601E89E8917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC1848E-9AC4-32F0-F4C2-B601E89E8917}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DC1848E-9AC4-32F0-F4C2-B601E89E8917} = {63E897B6-C673-A319-BEED-5D9ACFFFC62B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F5A7DA-CA6F-4305-9695-28F7F6F0D923}
+	EndGlobalSection
+EndGlobal
